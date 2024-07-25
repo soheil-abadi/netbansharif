@@ -1,0 +1,35 @@
+.card {
+  height: 430px;
+  background-color: rgb(61, 60, 60);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card2 {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ant-table-row {
+  background-color: #2a2b3f !important;
+}
+.ant-table-thead {
+  text-align: center !important;
+}
+
+.hexagon {
+  font-weight: 700;
+  color: black;
+  width: 30px;
+  aspect-ratio: 0.866;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  background-color: #78011f;
+}
+.ant-table-row td {
+  text-align: center !important;
+}
+.ant-table-thead th {
+  text-align: center !important;
+}
